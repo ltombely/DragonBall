@@ -1,0 +1,17 @@
+@import url("style.css");
+
+body > article {
+    background-image: url('../imgs/historia.jpg');
+}
+body > main > p {
+    margin-bottom: 0.5rem;
+}
+p{
+    font-size: 1.0rem;
+    text-indent:0.5rem;
+    text-align:justify;
+}
+/*
+@import url('...')
+Serve para que dentro deste arquivo tenha o arquivo style.css
+*/
