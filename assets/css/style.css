@@ -1,8 +1,7 @@
-@font-face {
+@font-face{
     src: url('../fonts/Saiyan-Sans.ttf');
     font-family: 'Saiyan';
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 *{
@@ -11,107 +10,91 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
-main{
-    margin:0.75rem;
-}
-.card{
-    border-radius: 0.5rem;
-    padding:0.5rem;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25); 
-
-}
 body > header:nth-child(1){
-    background-color: #E55E2E;
+    background-color: orangered;
+    display: flex; 
+    align-items: center;
+    height: 2.5rem;
+}
+body > footer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    height: 2.5rem;
+}
+body > footer > div:nth-child(1){
     display: flex;
     align-items: center;
-    padding: 0.56rem 0.87rem;
+    color: white;
 }
-footer{
-    background-color: #E55E2E;
-    padding:0.5rem;
-    color:white;
-}
-footer > p {
-    text-align:center;
+/*body > footer > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    color: white;
+}*/
+body > footer > div > img{
+    width:1.7rem;
 }
 body > header:nth-child(1) > div {
+    width:100%;
     display:flex;
     justify-content: center;
-    width: 100%;
-    align-items: center;
+    align-items:center;
+    font-family: 'Saiyan';
 }
-
-body > header:nth-child(1)>div>img{
-    height: 1.25rem;
-    margin-right: 0.62rem;
+body > header:nth-child(1) > div > img{
+    width:2.0rem;
+    padding:0.2rem;
 }
-
-body > header:nth-child(1)>div>span{
-    font-family: 'Saiyan', sans-serif;
-    font-size: 1.25rem;
-    color: #FFFFFF;
+body > header:nth-child(1) > a > img{
+    padding:0.5rem;
+    width:2.0rem;
 }
-
-body > nav > span:nth-child(3){
-    text-decoration: underline;
-}
-body > nav {
-    background-color: #fda402;
+body > header:nth-child(1) > div > span{
+    font-family: 'Saiyan', 'sans-serif';
+    font-size:1.5rem;
     color: #ffffff;
-    font-size: 0.75rem;
-    padding: 0.44rem 0.66rem;
+    padding: 0.3rem;
 }
-
-body > nav a:link,
-body > nav a:visited {
-color: #ffffff;
-text-decoration: none;
+body > nav{
+    background-color: orange;
+    height: 2rem;
+    display:flex;
+    align-items:center;
+}
+span, a{
+    color:white;
+    margin-left:0.5rem;
 }
 body > article{
     height: 8rem;
-    display: flex;
+    background-position: center;
     background-size: cover;
-    background-position:center;
-    align-items: flex-end;
+    display:flex;
+    align-items:flex-end;
+
 }
 body > article > header{
-    background-color: #ac0117cc;
-    color:#ffffff;
-    font-size: 1.5rem;
+    background-color: rgba(255, 0, 0, 0.671);
     width:100%;
-    text-align:center;
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
 }
 
-                    
-/*
-@font-face
-@ -> codigo especial, CSS não procura a tag então.
-@font-face -> Define o tipo de fonte.
-Web entende fontes tipo .ttf, .woff, .otf.   
-url -> Transforma caminho relativo em absoluto
-src -> indica que será passado um caminho.
-font-family: - ; ->    Define nome da fonte
-
-*{...}
-O navegador tem uma borda padrão, para chamar os css do navegador em si usa-se *{...}
-
->
-O 'maior que' usado no CSS3 serve para indicar que um elemento é filho de outro, caminho até elemento
-O ':nth-child(1') diz qual dos headers dentro do body se quer selecionar, nesse primeiro header    
-
-CHAMAR 
-body > header:nth-child(1) > div > img ou body > header:nth-child(1) img{...}
-
-UNIDADES DE MEDIDA RELATIVAS
-em -> Relativo ao tamanho da fonte do próprio elemento.
-rem -> Relativo ao tamanho da fonte do elemento Root (a Tag HTML).
-vw -> Relativo a 1% da largura do Viewport.
-vh -> Relativo a 1% da altura do Viewport.
-% -> Relativo ao elemento pai.
-
-FLEXBOX
-É uma técnica que inclui em uma o Float e o Position juntos
-
-text-indent
-define tamanho do parágrafo
-*/
+h1{
+    text-align: center;
+    margin-bottom:1rem;
+}
+main{
+    padding: 1rem;
+    margin: 1rem;
+}
+.card{
+    box-shadow: 0rem 0rem 1rem #000000a8;
+    background-color: #f1f1f1;
+    font-family: 'Raleway';
+    border-radius:1rem;
+    padding:1rem;
+}

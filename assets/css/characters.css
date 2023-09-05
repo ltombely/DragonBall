@@ -1,11 +1,19 @@
-@import url("style.css");
+@import url('style.css');
 
-body > article{
-    background-image: url("../imgs/galeria.jpg");
+body > article {
+    background-image: url('../imgs/galeria.jpg');
 }
 h2{
-    color:rgb(83, 138, 0);
+    color:green;
 }
-body > main > section {
-    display:flex;
+body > main > section{
+    display: flex;
+    margin-top: 2rem;
+}
+body > main > section > div{
+    margin-left: 1rem;
+}
+p{  
+    font-size: 1rem;
+    padding: 0.5rem;
 }
