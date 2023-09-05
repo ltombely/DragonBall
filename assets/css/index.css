@@ -1,0 +1,31 @@
+@import url('style.css');
+
+.redirect{
+    display: flex;
+    align-items: flex-end;  
+    background-size: cover;
+    background-position: center ;
+    height: 10rem;
+    border: solid black 0.3rem;
+    border-radius: 1.0rem;
+    margin-top: 2rem;
+}
+body > main > a > section > header{
+    background-color: rgba(255, 0, 0, 0.671)    ;
+    width:100%; 
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+body > main > a:nth-child(1) > section{
+    background-image: url('../imgs/historia.jpg');
+}
+body > main > a:nth-child(2) > section{
+    background-image: url('../imgs/akira.jpg');
+}
+body > main > a:nth-child(3) > section{
+    background-image: url('../imgs/galeria.jpg');
+}
+body > main > a:nth-child(4) > section{
+    background-image: url('../imgs/pedidos.jpg');
+}
