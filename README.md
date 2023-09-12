@@ -1,3 +1,3 @@
 # DragonBall
 
-Este é meu site DBZ, feito em casa
+## This is my Dragon Ball Site made at home.
