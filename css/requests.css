@@ -3,24 +3,22 @@
 body > article{
     background-image: url('../imgs/pedidos.jpg');
 }
-body > main > section{
-    display: flex;
-    margin-top:2rem;
-}
-body > main > section > div{
-    margin-left: 2.0rem;
-}
-body > main > section > img{
-    width: 7    rem;
-    height: 5rem;
-}
+
 body > main > section > div > ul{
     list-style-image: url('../imgs/esfera_do_dragao.png');
 }
-body > main > section > div > ul > li {
-    margin-top: 0.4rem;
-    margin-left: 2rem;
-}
+
 body > main > section > div > h2{
     color:green;
 }
+section.card {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+section.card > img {
+    width: 5rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
